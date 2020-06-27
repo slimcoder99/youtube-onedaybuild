@@ -15,6 +15,8 @@
 		7F1656FF2483B36100FE4C44 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7F1656FE2483B36100FE4C44 /* Assets.xcassets */; };
 		7F1657022483B36100FE4C44 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7F1657002483B36100FE4C44 /* LaunchScreen.storyboard */; };
 		7F4B0E9C24A6477C00C098E7 /* CacheManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F4B0E9B24A6477C00C098E7 /* CacheManager.swift */; };
+		7F55A62524A7362100AB882A /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F55A62424A7362100AB882A /* DetailViewController.swift */; };
+		7F55A62824A7385D00AB882A /* WebKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7F55A62724A7385D00AB882A /* WebKit.framework */; };
 		7F5DE6152488943600D24240 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F5DE6142488943600D24240 /* Constants.swift */; };
 		7F5DE6172488995D00D24240 /* Video.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F5DE6162488995D00D24240 /* Video.swift */; };
 		7F5DE619248899AE00D24240 /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F5DE618248899AE00D24240 /* Model.swift */; };
@@ -33,6 +35,8 @@
 		7F1657012483B36100FE4C44 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		7F1657032483B36100FE4C44 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		7F4B0E9B24A6477C00C098E7 /* CacheManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CacheManager.swift; sourceTree = "<group>"; };
+		7F55A62424A7362100AB882A /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		7F55A62724A7385D00AB882A /* WebKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WebKit.framework; path = System/Library/Frameworks/WebKit.framework; sourceTree = SDKROOT; };
 		7F5DE6142488943600D24240 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = Constants.swift; path = "../youtube-onedaybuild/Constants.swift"; sourceTree = "<group>"; };
 		7F5DE6162488995D00D24240 /* Video.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Video.swift; sourceTree = "<group>"; };
 		7F5DE618248899AE00D24240 /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
@@ -45,6 +49,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7F55A62824A7385D00AB882A /* WebKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -61,6 +66,7 @@
 				7FD2B00F249DF6FA00F759E7 /* Controllers */,
 				7FD2B00E249DF6E400F759E7 /* Helpers */,
 				7F1656F32483B35E00FE4C44 /* Products */,
+				7F55A62624A7385D00AB882A /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -83,6 +89,14 @@
 			path = "youtube-onedaybuild";
 			sourceTree = "<group>";
 		};
+		7F55A62624A7385D00AB882A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7F55A62724A7385D00AB882A /* WebKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		7FD2B00E249DF6E400F759E7 /* Helpers */ = {
 			isa = PBXGroup;
 			children = (
@@ -97,6 +111,7 @@
 			isa = PBXGroup;
 			children = (
 				7F1656F92483B35E00FE4C44 /* ViewController.swift */,
+				7F55A62424A7362100AB882A /* DetailViewController.swift */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -199,6 +214,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7F55A62524A7362100AB882A /* DetailViewController.swift in Sources */,
 				7F1656FA2483B35E00FE4C44 /* ViewController.swift in Sources */,
 				7F1656F62483B35E00FE4C44 /* AppDelegate.swift in Sources */,
 				7F1656F82483B35E00FE4C44 /* SceneDelegate.swift in Sources */,
